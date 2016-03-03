@@ -1,0 +1,96 @@
+/* CSS stylesheet */
+
+body {
+	
+    background-image: url('ramces/img/fondo.jpg');
+    background-color: #3B3B3B;
+	line-height: 150%;
+	padding-top: 50px;
+}
+.container {
+	background-color: #FFFFFF;
+}
+
+
+footer{
+	background-color: #232323;
+	padding: 2em 0;
+	/*margin: 3em 0;*/
+	border-top: 1px solid #ddd;
+	color: #777777;
+	text-align: center;
+}
+.glyphicon {
+	color:#3f2b22;
+}
+.pull-right.img-responsive {
+	margin: 0 0 1em 1em;
+}
+.btn-info {
+	background-color: #cdae51;
+	border-color: #3f2b22;
+	color: #fff;
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.open .dropdown-toggle.btn-info {
+	color: #ffffff;
+	background-color: #3f2b22;
+	border-color: #333;
+}
+.panel-default {
+    border-color:#DF0A0D
+}
+.panel-default > .panel-heading {
+    background-color: #cdae51;
+    border-color: #3F2B22;
+    color: #fff;
+}
+
+.breadcrumb > li + li:before {
+	padding: 0 5px;
+	color: #cccccc;
+	content: none;	
+}
+.navbar-default {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+}
+.navbar-inverse .navbar-toggle {
+	color: white;
+	font-weight: bold;
+	border-color: white;
+}
+.navbar-inverse .navbar-toggle:hover {
+	background-color: #ddd;
+	color: #333;
+}
+.navbar-nav{
+	color:#2f28bb;
+	background-color:#2f28bb;
+	
+}
+navbar-inverse {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+}
+.navbar-inverse .navbar-toggle .glyphicon {
+	color: white;
+}
+.navbar-inverse .navbar-toggle:hover .glyphicon {
+	color: #333;
+}
+
+.tab-pane {
+	border-left: 1px solid #ddd;
+	border_right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 0.8em;
+}
+
+.active .glyphicon {
+	color: #cdae51;	
+}

@@ -1,0 +1,162 @@
+/* CSS stylesheet */
+
+body {
+	
+    background-image: url('ramces/img/fondo.jpg');
+    background-color:#9B9596;
+	line-height: 150%;
+	padding-top: 50px;
+}
+.container {
+	background-color: #FFFFFF;
+}
+footer{
+	background-color:#DA251C;
+	padding: 2em 0;
+	/*margin: 3em 0;*/
+	border-top: 1px solid #ddd;
+	color: #777777;
+	text-align: center;
+}
+.glyphicon {
+	color:#3f2b22;
+}
+.pull-right.img-responsive {
+	margin: 0 0 1em 1em;
+}
+btn btn-warning btn-block{
+	background-color:#fce66c;
+	color:#FFFFFF;
+	
+}
+/*botones de abajo */
+.btn-primary {
+	background-color:transparent;
+	border-color:#D4272A;
+	border-bottom-width:thick;
+	border-left-width:thick;
+	color: #000000;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+	color: #000000;
+	background-color:transparent;
+	border-color:#E80003; 
+}
+
+
+.btn-info {
+	background-color:#F8FF90;
+	border-color: #3f2b22;
+	color: #fff;
+}
+
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.open .dropdown-toggle.btn-info {
+	color: #ffffff;
+	background-color: #3f2b22;
+	border-color: #333;
+}
+.panel-default {
+    border-color: #3F2B22;
+}
+.panel-default > .panel-heading {
+    background-color: #cdae51;
+    border-color: #3F2B22;
+    color: #fff;
+}
+
+.breadcrumb > li + li:before {
+	padding: 0 5px;
+	color: #cccccc;
+	content: none;	
+}
+/*.navbar-text > a{
+	color:inherit;
+		text-decoration:line-through;
+}*/
+/*cambiar color barra*/
+.navbar-default{
+	background-color:#da251c;
+	border-color:#FFFFFF;
+	color:#FFFFFF;
+}
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+.navbar-default .navbar-brand{
+	color:#FFFFFF;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus{
+	color:#D80F12;
+	background-color:transparent;
+}
+.navbar-default .navbar-nav > li > a{
+	/*color texto barra*/
+	color:#FFFFFF;
+}
+/*colorear active tab*/
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus{
+	color:#FFFFFF;
+	background-color:#be1d15;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus{
+	color:#be1d15;
+	background-color:#000000;
+}
+.navbar-default .navbar-nav .open > a,
+.navbar-default .navbar-nav .open > a:hover,
+.navbar-default .navbar-nav .open > a:focus{
+	background-color:#A8923F;
+	color:#000000;	
+}
+
+.navbar-inverse .navbar-toggle {
+	color: white;
+	font-weight: bold;
+	border-color: white;
+}
+/*colorear el boton del resize*/
+.navbar-inverse .navbar-toggle:hover {
+	background-color:#FFFFFF;
+	color:#FFF6AA;
+	border-color:transparent;
+}
+.navbar-inverse .navbar-toggle .glyphicon {
+	color: white;
+}
+.navbar-inverse .navbar-toggle:hover .glyphicon {
+	color: #333;
+}
+
+.tab-pane {
+	border-left: 1px solid #ddd;
+	border_right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 0.8em;
+}
+
+.active .glyphicon {
+	color: #cdae51;	
+}
+
+.img-responsive img-thumbnail  img:hover{
+	transform:scale(1,1)
+}
+.img-responsive img-thumbnail  img:hover{
+	transform:scale(1,1)
+}
