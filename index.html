@@ -1,213 +1,141 @@
-<!doctype html>
+<!DOCTYPE html>
+<!--
+	NOTES:
+	1. All tokens are represented by '$' sign in the template.
+	2. You can write your code only wherever mentioned.
+	3. All occurrences of existing tokens will be replaced by their appropriate values.
+	4. Blank lines will be removed automatically.
+	5. Remove unnecessary comments before creating your template.
+-->
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>Dr. Steven Backman Mazatlan</title>
-   
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="shortcut icon" href="logitotitle.ico" />
-    <meta name="keywords" content="quiropractico, mexico, mazatlan,  doctor mazatlan, backman, steven backman, chiropractic, stevens, qiropractico mazatlan, doctor, doctor mazatlan, back pain, backpain mazatlan, california chiroprator , salud, " />
-<meta name="description" content="Sitio oficial del doctor Steven Backman Quiropractico de mazatlan" />
-<meta name="Author" content="mazatlanonline.net " />
-
-
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
-    <style type="text/css">
-    a:link {
-	color: #000000;
+<meta charset="UTF-8">
+<meta name="authoring-tool" content="Adobe_Animate_CC">
+<title>memokylie1</title>
+<!-- write your code here -->
+<style>
+  #animation_container, #_preload_div_ {
+	position:absolute;
+	margin:auto;
+	left:0;right:0;
+	top:0;bottom:0;
+  }
+</style>
+<script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+<script src="memokylie1.js?1516827103725"></script>
+<script>
+var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
+function init() {
+	canvas = document.getElementById("canvas");
+	anim_container = document.getElementById("animation_container");
+	dom_overlay_container = document.getElementById("dom_overlay_container");
+	var comp=AdobeAn.getComposition("EB97120119CEBA419A67D43BE8DB75E5");
+	var lib=comp.getLibrary();
+	var loader = new createjs.LoadQueue(false);
+	loader.addEventListener("fileload", function(evt){handleFileLoad(evt,comp)});
+	loader.addEventListener("complete", function(evt){handleComplete(evt,comp)});
+	var lib=comp.getLibrary();
+	loader.loadManifest(lib.properties.manifest);
 }
-a:hover {
-	color: #FFFFFF;
+function handleFileLoad(evt, comp) {
+	var images=comp.getImages();	
+	if (evt && (evt.item.type == "image")) { images[evt.item.id] = evt.result; }	
 }
-    </style>
-    <script src="js/respond.js"></script>
-</head>
-
-<body>
-<div class="container" id="container">
-
-	<!-- row 1: navigation -->
-    <div class="row">
-    
-    	<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
-            <div class="navbar-header">
-            
-            
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse"                ."navbar-ex1-collapse">
-                 
-                  <span class="sr-only">Mostrar navegacion</span>
-                  <span class="glyphicon glyphicon-arrow-down"></span>
-                  MENU
-                </button>
-                </a></div>
-            <div class="collapse navbar-collapse" id="collapse">
-            
-      
-                <ul class="nav navbar-nav">
-                    <li><img src="img/logito.png" alt="Stevens Backman quiropractico" class="img-responsive"></li>
-            <li class="active"><a href="index.html"><b>Inicio</b></a></li>
-                    <li><a href="informacion.html"> <b>Ubicacion</b> </a></li>
-                     <li><a href="servicios.html"><b>Servicios</b> </a></li>
-                    <li><a href="clientes.html"><b>Testimonios</b></a></li>
-                    <li><a href="articulos.html"><b>Articulos</b></a></li>
-                    <li><a href="english.html"><b>English</b></a></li>
-                    <li><a href="contacto.html"><b>Contacto</b></a></li> 
-                    <li><a href="https://www.facebook.com/pages/Dr-Steven-Backman-Quiropr%C3%A1ctico/112231475553670?fref=ts" target="_blank"><img src="img/facebook.png" alt="Visita nuestro facebook" class="img-responsive"></a></li>
-                    <li><a href="https://twitter.com/DrSteveBackman" target="_blank"><img src="img/twitter.png" alt="Visita nuestro twitter" class="img-responsive"></a></li>
-              </ul> 
-            </div>
-      </nav> 
-    </div><!--End of Nav-->
-    
-    <!--ADDING A CARROUSEL-->
-    
-    
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item active">
-      <img src="img/carrusel01.jpg" alt="Quiropractico">
-      <div class="carousel-caption">
-      	<h3><img src="img/quiropractico.png"  alt=""/></h3>
-   		<p><img src="img/certificado.png"  alt=""/></p>
-      </div>
-    </div>
-    <div class="item">
-      <img src="img/carrusel02.jpg" alt="Salud">
-      <div class="carousel-caption">
-        <h3><img src="img/salu.png"  alt=""/></h3>
-   		<p><img src="img/salud.png"  alt=""/></p>
-      </div>
-    </div>
-    <div class="item">
-      <img src="img/carrusel03.jpg" alt="license doctor">
-      <div class="carousel-caption">
-        <h3><img src="img/licensed.png"  alt=""/></h3>
-   		<p><img src="img/california.png"  alt=""/></p>
-      </div>
-      
-    </div>
-    <div class="item">
-      <img src="img/carrusel04.jpg" alt="experiencia">
-      <div class="carousel-caption">
-        <h3><img src="img/experiencia.png"  alt=""/></h3>
-   		<p><img src="img/30.png"  alt=""/></p>
-      </div>
-      
-    </div>
-    <div class="item">
-      <img src="img/carrusel05.jpg" alt="goldfish">
-      <div class="carousel-caption">
-        <h3><img src="img/visitenos.png"  alt=""/></h3>
-   		<p><img src="img/cita.png"  alt=""/></p>
-      </div>
-      
-    </div>
-  </div>
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
-</div><!--end of carrousel-->
-
-    
-    <!-- row 3 -->
-    <div class="row">
-    	<div class="col-md-3 col-xs-6">
-        	<h4 class="text-danger">&nbsp;</h4>
-            <p><img src="img/nota01.jpg" alt="" class="img-responsive img-thumbnail"></p>
-              <p>Servicios que ofrecemos</p></br></br>
-            <p><a href="servicios.html" class="btn btn-primary">Leer mas >></a></p>
-        </div>
-        <div class="col-md-3 col-xs-6">
-        	<h4 class="text-danger">&nbsp;</h4>
-            <p><img src="img/nota02.jpg" alt="" class="img-responsive img-thumbnail"></p>
-            <p style="font-size: small">Problemas y condiciones que atendemos</p></br></br>
-          <p><a href="problemas.html" class="btn btn-primary">Leer mas >></a></p>
-        </div><strong></strong>
-        <div class="col-md-3 col-xs-6">
-        	<h4 class="text-danger">&nbsp;</h4>
-            <p><img src="img/nota03.jpg" alt="" class="img-responsive img-thumbnail"></p>
-            <p>Primera cita</p></br></br>
-          <p><a href="cita.html" class="btn btn-primary">Leer mas >></a></p>
-        </div>
-        <div class="col-md-3 col-xs-6">
-        	<h4 class="text-danger">&nbsp;</h4>
-            <p><img src="img/nota04.jpg" alt="" class="img-responsive img-thumbnail"></p>
-            <p>Conozca al Doctor</p>
-            </br></br>
-          <p><a href="conozca.html" class="btn btn-primary">Leer mas >></a></p>
-        </div>
-       
-    </div>
-    
-
-</div> <!-- end container -->
-    <!-- row 4 -->
-  
-<p>&nbsp;</p>
-<table width="149" align="center">
-  <tbody>
-    <tr>
-      <td><a title="free hit
-counter" href="http://statcounter.com/free-hit-counter/"
-target="_blank"><img class="statcounter"
-src="http://c.statcounter.com/10177777/0/0653de14/0/"
-alt="free hit counter"></a></td>
-    </tr>
-  </tbody>
-</table>
-<p>
-<!-- javascript -->
-	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    
-    <!-- statacounter -->
-    <!-- Start of StatCounter Code for Dreamweaver -->
-
-<!-- End of StatCounter Code for Dreamweaver -->
-<footer class="row">
-<address>
-
-  <span style="color: #FFFFFF"><b>Dr. Steven Backman, D.C.</b><br>
-  Camarón Sábalo No. 306 L-5 <br>
-  Zona Dorada  Plaza la Misión <br>
-  Mazatlán, Sinaloa, México<br>
- Tel: 669-916-7500<br><br>
-  </span>
-  
-</address>
-<address>
-  <span style="color: #FFFFFF"><b>Dr. Steven Backman</b></span><br>
-  <img src="img/email.png" width="236" height="20" alt=""/>
-</address>
-         <p><small>Dr. Steven Backman© 2015</small></p>
-<small><a href="privacidad.html">Anuncio de privacidad</a></small>
-</body>
-</footer>
-<script type="text/javascript">
-var sc_project=10177777; 
-var sc_invisible=0; 
-var sc_security="0653de14"; 
-var scJsHost = (("https:" == document.location.protocol) ?
-"https://secure." : "http://www.");
-
+function handleComplete(evt,comp) {
+	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+	var lib=comp.getLibrary();
+	var ss=comp.getSpriteSheet();
+	var queue = evt.target;
+	var ssMetadata = lib.ssMetadata;
+	for(i=0; i<ssMetadata.length; i++) {
+		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
+	}
+	var preloaderDiv = document.getElementById("_preload_div_");
+	preloaderDiv.style.display = 'none';
+	canvas.style.display = 'block';
+	exportRoot = new lib.memokylie1();
+	stage = new lib.Stage(canvas);
+	stage.enableMouseOver();	
+	//Registers the "tick" event listener.
+	fnStartAnimation = function() {
+		stage.addChild(exportRoot);
+		createjs.Ticker.setFPS(lib.properties.fps);
+		createjs.Ticker.addEventListener("tick", stage)
+		stage.addEventListener("tick", handleTick)
+		function handleTick(event) {
+			var cameraInstance = exportRoot.___camera___instance;
+			if(cameraInstance)
+			{
+				var stageCenter = { 'x' : lib.properties.width/2, 'y' : lib.properties.height/2 };
+				if(cameraInstance._off != null && cameraInstance._off == true)
+					exportRoot.transformMatrix = new createjs.Matrix2D();
+				else
+				{
+					if(cameraInstance.pinToObject !== undefined)
+					{
+						cameraInstance.x = cameraInstance.pinToObject.x + cameraInstance.pinToObject.pinOffsetX;
+						cameraInstance.y = cameraInstance.pinToObject.y + cameraInstance.pinToObject.pinOffsetY;
+					}
+					var mat = cameraInstance.getMatrix();
+					mat.tx -= stageCenter.x;
+					mat.ty -= stageCenter.y;
+					var inverseMat = mat.invert();
+					inverseMat.prependTransform(stageCenter.x, stageCenter.y, 1, 1, 0, 0, 0, 0, 0);
+					inverseMat.appendTransform(-stageCenter.x, -stageCenter.y, 1, 1, 0, 0, 0, 0, 0);
+					exportRoot.transformMatrix = inverseMat;
+				}
+			}
+		}
+	}	    
+	//Code to support hidpi screens and responsive scaling.
+	function makeResponsive(isResp, respDim, isScale, scaleType) {		
+		var lastW, lastH, lastS=1;		
+		window.addEventListener('resize', resizeCanvas);		
+		resizeCanvas();		
+		function resizeCanvas() {			
+			var w = lib.properties.width, h = lib.properties.height;			
+			var iw = window.innerWidth, ih=window.innerHeight;			
+			var pRatio = window.devicePixelRatio || 1, xRatio=iw/w, yRatio=ih/h, sRatio=1;			
+			if(isResp) {                
+				if((respDim=='width'&&lastW==iw) || (respDim=='height'&&lastH==ih)) {                    
+					sRatio = lastS;                
+				}				
+				else if(!isScale) {					
+					if(iw<w || ih<h)						
+						sRatio = Math.min(xRatio, yRatio);				
+				}				
+				else if(scaleType==1) {					
+					sRatio = Math.min(xRatio, yRatio);				
+				}				
+				else if(scaleType==2) {					
+					sRatio = Math.max(xRatio, yRatio);				
+				}			
+			}			
+			canvas.width = w*pRatio*sRatio;			
+			canvas.height = h*pRatio*sRatio;
+			canvas.style.width = anim_container.style.width = dom_overlay_container.style.width = preloaderDiv.style.width = w*sRatio+'px';				
+			canvas.style.height = anim_container.style.height = dom_overlay_container.style.height = preloaderDiv.style.height = h*sRatio+'px';
+			stage.scaleX = pRatio*sRatio;			
+			stage.scaleY = pRatio*sRatio;			
+			lastW = iw; lastH = ih; lastS = sRatio;            
+			stage.tickOnUpdate = false;            
+			stage.update();            
+			stage.tickOnUpdate = true;		
+		}
+	}
+	makeResponsive(true,'both',true,1);	
+	AdobeAn.compositionLoaded(lib.properties.id);
+	fnStartAnimation();
+}
 </script>
-<noscript>
-</noscript>
+<!-- write your code here -->
+</head>
+<body onload="init();" style="margin:0px;">
+	<div id="animation_container" style="background-color:rgba(0, 0, 51, 1.00); width:1350px; height:760px">
+		<canvas id="canvas" width="1350" height="760" style="position: absolute; display: none; background-color:rgba(0, 0, 51, 1.00);"></canvas>
+		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:1350px; height:760px; position: absolute; left: 0px; top: 0px; display: none;">
+		</div>
+	</div>
+    <div id='_preload_div_' style='position:absolute; top:0; left:0; display: inline-block; height:760px; width: 1350px; text-align: center;'>	<span style='display: inline-block; height: 100%; vertical-align: middle;'></span>	<img src=images/_preloader.gif?1516827103727 style='vertical-align: middle; max-height: 100%'/></div>
+</body>
 </html>
