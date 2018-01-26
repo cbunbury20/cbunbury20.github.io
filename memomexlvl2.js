@@ -9896,7 +9896,7 @@ p.nominalBounds = new cjs.Rectangle(-24.6,-0.2,424,40.4);
 		this.nextlevel.addEventListener("click", fl_ClickToGoToWebPage);
 		
 		function fl_ClickToGoToWebPage() {
-			window.open("memomexlvl2.html", "_self");
+			window.open("memomexlvl3.html", "_self");
 		}
 	}
 
@@ -14769,7 +14769,7 @@ lib.properties = {
 	color: "#000033",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/memomexlvl2_atlas_.png", id:"memomexlvl2_atlas_"}
+		{src:"images/memomexlvl2_atlas_.png?1516977346458", id:"memomexlvl2_atlas_"}
 	],
 	preloads: []
 };
