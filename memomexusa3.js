@@ -9025,7 +9025,7 @@ p.nominalBounds = new cjs.Rectangle(-24.6,-0.2,424,40.4);
 		this.nextlevel.addEventListener("click", fl_ClickToGoToWebPage);
 		
 		function fl_ClickToGoToWebPage() {
-			window.open("memomex14.html", "_self");
+			window.open("mexhist.html", "_self");
 		}
 	}
 
