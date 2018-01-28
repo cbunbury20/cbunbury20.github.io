@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"memomexrock3_atlas_", frames: [[366,460,181,228],[183,460,181,228],[959,0,30,40],[732,230,181,228],[0,457,181,228],[0,0,225,225],[732,657,160,200],[549,230,181,228],[732,460,194,195],[915,230,100,100],[366,230,181,228],[227,0,181,228],[549,460,181,225],[776,0,181,228],[410,0,181,228],[593,0,181,228],[0,227,181,228],[183,230,181,228]]}
+		{name:"memomexrock3_atlas_", frames: [[227,0,181,228],[410,0,181,228],[959,0,30,40],[366,460,181,228],[183,460,181,228],[0,0,225,225],[732,657,160,200],[0,457,181,228],[732,460,194,195],[915,230,100,100],[593,0,181,228],[776,0,181,228],[549,460,181,225],[549,230,181,228],[732,230,181,228],[0,227,181,228],[183,230,181,228],[366,230,181,228]]}
 ];
 
 
@@ -12084,6 +12084,7 @@ p.nominalBounds = new cjs.Rectangle(18,5.4,1135.6,515.1);
 		function fl_ClickToGoToAndStopAtFrame_2()
 		{
 			//alert(huerta1)
+			
 			inicio=1
 			this.gotoAndStop(3);
 		}
@@ -13153,7 +13154,7 @@ p.nominalBounds = new cjs.Rectangle(18,5.4,1135.6,515.1);
 			if (inicio == 0) {
 				nohabilitar_cards()
 			}
-			
+		
 		}
 		
 		
@@ -13192,41 +13193,8 @@ p.nominalBounds = new cjs.Rectangle(18,5.4,1135.6,515.1);
 			//alert("game over dentro")
 			if (intentos < 0) {
 				//alert("game over dentro")
-				inicio  = 3
-				
-		puntos = 0
-		levantado1 = 0
-		levantado2 = 0
-		intentos = 19
-		respuesta = 0
-				raiz.gotoAndStop(0)
-				//raiz.memorama.play()
-				huerta1 = 0
-		huerta2 = 0
-		 villa1 = 0
-		villa2 = 0
-		 madero1 = 0
-		madero2 = 0
-		hidalgo1 = 0
-		 hidalgo2 = 0
-		 diaz1 = 0
-		 diaz2 = 0
-		 zapata1 = 0
-		zapata2 = 0
-		obregon1 = 0
-		 obregon2 = 0
-		morelos1 = 0
-		 morelos2 = 0
-		 victoria1 = 0
-		victoria2 = 0
-		 moctezuma1 = 0
-		 moctezuma2 = 0
-		 ana1=0
-		 ana2=0
-		iturbide1 =0
-		 iturbide2 =0
-		 
-		 //inicio=3
+			window.open("memomexrock3.html", "_self");
+				//inicio=3
 			}
 		}
 		
@@ -13257,13 +13225,13 @@ p.nominalBounds = new cjs.Rectangle(18,5.4,1135.6,515.1);
 			}
 		}*/
 		
-		function triunfito(){
-		if(	realpuntos >= 12){
-			//this.triunfo.visible =1
-			raiz.triunfo.visible =1
-		}
-			
-			
+		function triunfito() {
+			if (realpuntos >= 12) {
+				//this.triunfo.visible =1
+				raiz.triunfo.visible = 1
+			}
+		
+		
 		}
 		
 		function equisIntentos() {
@@ -13327,7 +13295,7 @@ p.nominalBounds = new cjs.Rectangle(18,5.4,1135.6,515.1);
 				raiz.equis.x16.gotoAndStop(0)
 				raiz.equis.x17.gotoAndStop(0)
 				raiz.equis.x18.gotoAndStop(0)
-			}else if (intentos == 16) {
+			} else if (intentos == 16) {
 				raiz.equis.x1.gotoAndStop(1)
 				raiz.equis.x2.gotoAndStop(1)
 				raiz.equis.x3.gotoAndStop(1)
@@ -13346,7 +13314,7 @@ p.nominalBounds = new cjs.Rectangle(18,5.4,1135.6,515.1);
 				raiz.equis.x16.gotoAndStop(0)
 				raiz.equis.x17.gotoAndStop(0)
 				raiz.equis.x18.gotoAndStop(0)
-			}else if (intentos == 15) {
+			} else if (intentos == 15) {
 				raiz.equis.x1.gotoAndStop(1)
 				raiz.equis.x2.gotoAndStop(1)
 				raiz.equis.x3.gotoAndStop(1)
@@ -13365,7 +13333,7 @@ p.nominalBounds = new cjs.Rectangle(18,5.4,1135.6,515.1);
 				raiz.equis.x16.gotoAndStop(0)
 				raiz.equis.x17.gotoAndStop(0)
 				raiz.equis.x18.gotoAndStop(0)
-			}else if (intentos == 14) {
+			} else if (intentos == 14) {
 				raiz.equis.x1.gotoAndStop(1)
 				raiz.equis.x2.gotoAndStop(1)
 				raiz.equis.x3.gotoAndStop(1)
@@ -13384,7 +13352,7 @@ p.nominalBounds = new cjs.Rectangle(18,5.4,1135.6,515.1);
 				raiz.equis.x16.gotoAndStop(0)
 				raiz.equis.x17.gotoAndStop(0)
 				raiz.equis.x18.gotoAndStop(0)
-			}else if (intentos == 13) {
+			} else if (intentos == 13) {
 				raiz.equis.x1.gotoAndStop(1)
 				raiz.equis.x2.gotoAndStop(1)
 				raiz.equis.x3.gotoAndStop(1)
@@ -13403,7 +13371,7 @@ p.nominalBounds = new cjs.Rectangle(18,5.4,1135.6,515.1);
 				raiz.equis.x16.gotoAndStop(0)
 				raiz.equis.x17.gotoAndStop(0)
 				raiz.equis.x18.gotoAndStop(0)
-			}else if (intentos == 12) {
+			} else if (intentos == 12) {
 				raiz.equis.x1.gotoAndStop(1)
 				raiz.equis.x2.gotoAndStop(1)
 				raiz.equis.x3.gotoAndStop(1)
@@ -13422,7 +13390,7 @@ p.nominalBounds = new cjs.Rectangle(18,5.4,1135.6,515.1);
 				raiz.equis.x16.gotoAndStop(0)
 				raiz.equis.x17.gotoAndStop(0)
 				raiz.equis.x18.gotoAndStop(0)
-			}else if (intentos == 11) {
+			} else if (intentos == 11) {
 				raiz.equis.x1.gotoAndStop(1)
 				raiz.equis.x2.gotoAndStop(1)
 				raiz.equis.x3.gotoAndStop(1)
@@ -13441,7 +13409,7 @@ p.nominalBounds = new cjs.Rectangle(18,5.4,1135.6,515.1);
 				raiz.equis.x16.gotoAndStop(0)
 				raiz.equis.x17.gotoAndStop(0)
 				raiz.equis.x18.gotoAndStop(0)
-			}else if (intentos == 10) {
+			} else if (intentos == 10) {
 				raiz.equis.x1.gotoAndStop(1)
 				raiz.equis.x2.gotoAndStop(1)
 				raiz.equis.x3.gotoAndStop(1)
@@ -13460,7 +13428,7 @@ p.nominalBounds = new cjs.Rectangle(18,5.4,1135.6,515.1);
 				raiz.equis.x16.gotoAndStop(0)
 				raiz.equis.x17.gotoAndStop(0)
 				raiz.equis.x18.gotoAndStop(0)
-			}else if (intentos == 9) {
+			} else if (intentos == 9) {
 				raiz.equis.x1.gotoAndStop(1)
 				raiz.equis.x2.gotoAndStop(1)
 				raiz.equis.x3.gotoAndStop(1)
@@ -13479,7 +13447,7 @@ p.nominalBounds = new cjs.Rectangle(18,5.4,1135.6,515.1);
 				raiz.equis.x16.gotoAndStop(0)
 				raiz.equis.x17.gotoAndStop(0)
 				raiz.equis.x18.gotoAndStop(0)
-			}else if (intentos == 8) {
+			} else if (intentos == 8) {
 				raiz.equis.x1.gotoAndStop(1)
 				raiz.equis.x2.gotoAndStop(1)
 				raiz.equis.x3.gotoAndStop(1)
@@ -13498,7 +13466,7 @@ p.nominalBounds = new cjs.Rectangle(18,5.4,1135.6,515.1);
 				raiz.equis.x16.gotoAndStop(0)
 				raiz.equis.x17.gotoAndStop(0)
 				raiz.equis.x18.gotoAndStop(0)
-			}else if (intentos == 7) {
+			} else if (intentos == 7) {
 				raiz.equis.x1.gotoAndStop(1)
 				raiz.equis.x2.gotoAndStop(1)
 				raiz.equis.x3.gotoAndStop(1)
@@ -13517,7 +13485,7 @@ p.nominalBounds = new cjs.Rectangle(18,5.4,1135.6,515.1);
 				raiz.equis.x16.gotoAndStop(0)
 				raiz.equis.x17.gotoAndStop(0)
 				raiz.equis.x18.gotoAndStop(0)
-			}else if (intentos == 6) {
+			} else if (intentos == 6) {
 				raiz.equis.x1.gotoAndStop(1)
 				raiz.equis.x2.gotoAndStop(1)
 				raiz.equis.x3.gotoAndStop(1)
@@ -13536,7 +13504,7 @@ p.nominalBounds = new cjs.Rectangle(18,5.4,1135.6,515.1);
 				raiz.equis.x16.gotoAndStop(0)
 				raiz.equis.x17.gotoAndStop(0)
 				raiz.equis.x18.gotoAndStop(0)
-			}else if (intentos == 5) {
+			} else if (intentos == 5) {
 				raiz.equis.x1.gotoAndStop(1)
 				raiz.equis.x2.gotoAndStop(1)
 				raiz.equis.x3.gotoAndStop(1)
@@ -13555,7 +13523,7 @@ p.nominalBounds = new cjs.Rectangle(18,5.4,1135.6,515.1);
 				raiz.equis.x16.gotoAndStop(0)
 				raiz.equis.x17.gotoAndStop(0)
 				raiz.equis.x18.gotoAndStop(0)
-			}else if (intentos == 4) {
+			} else if (intentos == 4) {
 				raiz.equis.x1.gotoAndStop(1)
 				raiz.equis.x2.gotoAndStop(1)
 				raiz.equis.x3.gotoAndStop(1)
@@ -13574,7 +13542,7 @@ p.nominalBounds = new cjs.Rectangle(18,5.4,1135.6,515.1);
 				raiz.equis.x16.gotoAndStop(0)
 				raiz.equis.x17.gotoAndStop(0)
 				raiz.equis.x18.gotoAndStop(0)
-			}else if (intentos == 3) {
+			} else if (intentos == 3) {
 				raiz.equis.x1.gotoAndStop(1)
 				raiz.equis.x2.gotoAndStop(1)
 				raiz.equis.x3.gotoAndStop(1)
@@ -13593,7 +13561,7 @@ p.nominalBounds = new cjs.Rectangle(18,5.4,1135.6,515.1);
 				raiz.equis.x16.gotoAndStop(1)
 				raiz.equis.x17.gotoAndStop(0)
 				raiz.equis.x18.gotoAndStop(0)
-			}else if (intentos == 2) {
+			} else if (intentos == 2) {
 				raiz.equis.x1.gotoAndStop(1)
 				raiz.equis.x2.gotoAndStop(1)
 				raiz.equis.x3.gotoAndStop(1)
@@ -13612,8 +13580,7 @@ p.nominalBounds = new cjs.Rectangle(18,5.4,1135.6,515.1);
 				raiz.equis.x16.gotoAndStop(1)
 				raiz.equis.x17.gotoAndStop(1)
 				raiz.equis.x18.gotoAndStop(0)
-			}
-			else if (intentos == 1) {
+			} else if (intentos == 1) {
 				raiz.equis.x1.gotoAndStop(1)
 				raiz.equis.x2.gotoAndStop(1)
 				raiz.equis.x3.gotoAndStop(1)
@@ -13637,21 +13604,23 @@ p.nominalBounds = new cjs.Rectangle(18,5.4,1135.6,515.1);
 		
 		
 		
-			/* Enter Frame Event
+		/* Enter Frame Event
 		During the animation, whenever player enters a new frame a function having your custom code will execute.
 		
 		Instructions:
 		1. Add your custom code on a new line after the line that says "// Start your custom code" below.
 		The code will execute everytime the player enters a new frame.
 		*/
-			createjs.Ticker.on("tick", flip);
+		//createjs.Ticker.on("tick", flip);
 		createjs.Ticker.on("tick", flip);
 		this.delay.addEventListener("click", fl_ClickToGoToWebPage_2);
 		
 		function fl_ClickToGoToWebPage_2() {
 			window.open("https://www.facebook.com/mazatlanonline.net/", "_blank");
 		}
+		if(realpuntos ==0){
 		this.triunfo.visible = 0
+		}
 		this.memorama.huerta1_mc.gotoAndStop(1)
 		this.memorama.huerta2_mc.gotoAndStop(1)
 		this.memorama.villa1_mc.gotoAndStop(1)
@@ -13925,7 +13894,7 @@ p.nominalBounds = new cjs.Rectangle(18,5.4,1135.6,515.1);
 	this.shape_29.setTransform(672.2,379.3);
 
 	this.shape_30 = new cjs.Shape();
-	this.shape_30.graphics.f("#000000").s().p("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");
+	this.shape_30.graphics.f("#000000").s().p("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");
 	this.shape_30.setTransform(672.2,382.8);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_30},{t:this.shape_29}]}).wait(2));
