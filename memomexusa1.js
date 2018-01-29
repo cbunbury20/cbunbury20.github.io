@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"memomexusa1_atlas_", frames: [[227,0,181,228],[410,0,181,228],[0,0,225,225],[0,457,181,228],[732,230,181,228],[183,230,181,228],[366,230,181,228],[549,230,181,228],[549,460,194,195],[915,230,100,100],[776,0,181,228],[0,227,181,228],[593,0,181,228],[183,460,181,228],[745,460,152,204],[366,460,181,228]]}
+		{name:"memomexusa1_atlas_", frames: [[776,0,181,228],[0,227,181,228],[0,0,225,225],[366,230,181,228],[183,230,181,228],[366,460,181,228],[549,230,181,228],[732,230,181,228],[549,460,194,195],[915,230,100,100],[183,460,181,228],[227,0,181,228],[593,0,181,228],[0,457,181,228],[745,460,152,204],[410,0,181,228]]}
 ];
 
 
@@ -12421,45 +12421,13 @@ p.nominalBounds = new cjs.Rectangle(9.5,-0.3,1132.8,511.4);
 		
 		}
 		
+		
 		function gameOver() {
 			//alert("game over dentro")
 			if (intentos < 0) {
 				//alert("game over dentro")
-				inicio  = 3
-				
-		puntos = 0
-		levantado1 = 0
-		levantado2 = 0
-		intentos = 19
-		respuesta = 0
-				raiz.gotoAndStop(0)
-				//raiz.memorama.play()
-				huerta1 = 0
-		huerta2 = 0
-		 villa1 = 0
-		villa2 = 0
-		 madero1 = 0
-		madero2 = 0
-		hidalgo1 = 0
-		 hidalgo2 = 0
-		 diaz1 = 0
-		 diaz2 = 0
-		 zapata1 = 0
-		zapata2 = 0
-		obregon1 = 0
-		 obregon2 = 0
-		morelos1 = 0
-		 morelos2 = 0
-		 victoria1 = 0
-		victoria2 = 0
-		 moctezuma1 = 0
-		 moctezuma2 = 0
-		 ana1=0
-		 ana2=0
-		iturbide1 =0
-		 iturbide2 =0
-		 
-		 //inicio=3
+			window.open("memomexusa1.html", "_self");
+				//inicio=3
 			}
 		}
 		
@@ -13184,7 +13152,7 @@ lib.properties = {
 	color: "#003366",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/memomexusa1_atlas_.png?1514912276452", id:"memomexusa1_atlas_"}
+		{src:"images/memomexusa1_atlas_.png", id:"memomexusa1_atlas_"}
 	],
 	preloads: []
 };

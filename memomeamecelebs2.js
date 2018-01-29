@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"memomeamecelebs2_atlas_", frames: [[0,227,177,224],[281,881,30,40],[227,0,184,230],[537,678,177,224],[537,452,177,224],[179,458,177,224],[0,0,225,225],[0,679,177,224],[358,458,177,224],[358,232,177,224],[375,684,160,200],[179,232,177,224],[0,453,177,224],[179,684,194,195],[179,881,100,100],[413,0,177,224],[592,0,177,224],[537,226,177,224]]}
+		{name:"memomeamecelebs2_atlas_", frames: [[0,453,177,224],[281,881,30,40],[227,0,184,230],[0,679,177,224],[592,0,177,224],[358,458,177,224],[0,0,225,225],[179,458,177,224],[537,452,177,224],[537,678,177,224],[375,684,160,200],[358,232,177,224],[537,226,177,224],[179,684,194,195],[179,881,100,100],[413,0,177,224],[179,232,177,224],[0,227,177,224]]}
 ];
 
 
@@ -9665,6 +9665,7 @@ p.nominalBounds = new cjs.Rectangle(6.8,3.7,134,168.8);
 	this.shape_12.setTransform(186.8,44.4);
 
 	this.jugar_btn = new lib._50();
+	this.jugar_btn.name = "jugar_btn";
 	this.jugar_btn.parent = this;
 	this.jugar_btn.setTransform(278.1,327.2,1.022,0.758,0,0,0,33.3,25.3);
 	new cjs.ButtonHelper(this.jugar_btn, 0, 1, 2, false, new lib._50(), 3);
@@ -10197,74 +10198,92 @@ p.nominalBounds = new cjs.Rectangle(6.8,3.7,134,168.8);
 
 	// Capa 1
 	this.x18 = new lib.x();
+	this.x18.name = "x18";
 	this.x18.parent = this;
 	this.x18.setTransform(66.5,99.1,1,1,0,0,0,18.9,20.3);
 
 	this.x17 = new lib.x();
+	this.x17.name = "x17";
 	this.x17.parent = this;
 	this.x17.setTransform(33.2,99.1,1,1,0,0,0,18.9,20.3);
 
 	this.x16 = new lib.x();
+	this.x16.name = "x16";
 	this.x16.parent = this;
 	this.x16.setTransform(-1,99.1,1,1,0,0,0,18.9,20.3);
 
 	this.x15 = new lib.x();
+	this.x15.name = "x15";
 	this.x15.parent = this;
 	this.x15.setTransform(196.1,69.1,1,1,0,0,0,18.9,20.3);
 
 	this.x14 = new lib.x();
+	this.x14.name = "x14";
 	this.x14.parent = this;
 	this.x14.setTransform(163.9,69.1,1,1,0,0,0,18.9,20.3);
 
 	this.x13 = new lib.x();
+	this.x13.name = "x13";
 	this.x13.parent = this;
 	this.x13.setTransform(129.9,69.1,1,1,0,0,0,18.9,20.3);
 
 	this.x12 = new lib.x();
+	this.x12.name = "x12";
 	this.x12.parent = this;
 	this.x12.setTransform(96.4,69.1,1,1,0,0,0,18.9,20.3);
 
 	this.x11 = new lib.x();
+	this.x11.name = "x11";
 	this.x11.parent = this;
 	this.x11.setTransform(63.7,69.1,1,1,0,0,0,18.9,20.3);
 
 	this.x10 = new lib.x();
+	this.x10.name = "x10";
 	this.x10.parent = this;
 	this.x10.setTransform(32.3,68,1,1,0,0,0,18.9,20.3);
 
 	this.x9 = new lib.x();
+	this.x9.name = "x9";
 	this.x9.parent = this;
 	this.x9.setTransform(0.1,68,1,1,0,0,0,18.9,20.3);
 
 	this.x8 = new lib.x();
+	this.x8.name = "x8";
 	this.x8.parent = this;
 	this.x8.setTransform(234,37.9,1,1,0,0,0,18.9,20.3);
 
 	this.x7 = new lib.x();
+	this.x7.name = "x7";
 	this.x7.parent = this;
 	this.x7.setTransform(200.6,37.9,1,1,0,0,0,18.9,20.3);
 
 	this.x6 = new lib.x();
+	this.x6.name = "x6";
 	this.x6.parent = this;
 	this.x6.setTransform(167.8,37.9,1,1,0,0,0,18.9,20.3);
 
 	this.x5 = new lib.x();
+	this.x5.name = "x5";
 	this.x5.parent = this;
 	this.x5.setTransform(132,37.9,1,1,0,0,0,18.9,20.3);
 
 	this.x4 = new lib.x();
+	this.x4.name = "x4";
 	this.x4.parent = this;
 	this.x4.setTransform(99.9,37.9,1,1,0,0,0,18.9,20.3);
 
 	this.x3 = new lib.x();
+	this.x3.name = "x3";
 	this.x3.parent = this;
 	this.x3.setTransform(65.1,37.9,1,1,0,0,0,18.9,20.3);
 
 	this.x2 = new lib.x();
+	this.x2.name = "x2";
 	this.x2.parent = this;
 	this.x2.setTransform(32.4,37.9,1,1,0,0,0,18.9,20.3);
 
 	this.x1 = new lib.x();
+	this.x1.name = "x1";
 	this.x1.parent = this;
 	this.x1.setTransform(-19.3,17.6);
 
@@ -11749,14 +11768,17 @@ p.nominalBounds = new cjs.Rectangle(-24.6,-0.2,424,40.4);
 
 	// Capa 1
 	this.estre3 = new lib.estre3();
+	this.estre3.name = "estre3";
 	this.estre3.parent = this;
 	this.estre3.setTransform(37.5,1.3);
 
 	this.estre2 = new lib.estre2();
+	this.estre2.name = "estre2";
 	this.estre2.parent = this;
 	this.estre2.setTransform(18.8,0.8);
 
 	this.estre1 = new lib.estre1();
+	this.estre1.name = "estre1";
 	this.estre1.parent = this;
 	this.estre1.setTransform(0,0.4);
 
@@ -11794,6 +11816,7 @@ p.nominalBounds = new cjs.Rectangle(-24.6,-0.2,424,40.4);
 	this.instance.setTransform(93.7,303.5,3.12,3.12,0,0,0,28.4,9.3);
 
 	this.nextlevel = new lib._50();
+	this.nextlevel.name = "nextlevel";
 	this.nextlevel.parent = this;
 	this.nextlevel.setTransform(279.2,319.4,1,1,0,0,0,33.4,25.3);
 	new cjs.ButtonHelper(this.nextlevel, 0, 1, 2, false, new lib._50(), 3);
@@ -13364,104 +13387,127 @@ p.nominalBounds = new cjs.Rectangle(-24.6,-0.2,424,40.4);
 
 	// Capa 3
 	this.button_12iturbide = new lib.ans_vhuerta_btn();
+	this.button_12iturbide.name = "button_12iturbide";
 	this.button_12iturbide.parent = this;
 	this.button_12iturbide.setTransform(605.7,183.7,0.9,1.3,0,0,0,133.1,22.9);
 
 	this.button_11ana = new lib.ans_vhuerta_btn();
+	this.button_11ana.name = "button_11ana";
 	this.button_11ana.parent = this;
 	this.button_11ana.setTransform(-13.6,185.2,1.208,1.3,0,0,0,132.9,22.9);
 
 	this.button_10moctezuma = new lib.ans_vhuerta_btn();
+	this.button_10moctezuma.name = "button_10moctezuma";
 	this.button_10moctezuma.parent = this;
 	this.button_10moctezuma.setTransform(-32.1,314.7,1.089,1.3,0,0,0,132.9,22.9);
 
 	this.button_9victoria = new lib.ans_vhuerta_btn();
+	this.button_9victoria.name = "button_9victoria";
 	this.button_9victoria.parent = this;
 	this.button_9victoria.setTransform(-38.3,383.6,1.089,1.3,0,0,0,132.9,22.9);
 
 	this.button_8morelos = new lib.ans_vhuerta_btn();
+	this.button_8morelos.name = "button_8morelos";
 	this.button_8morelos.parent = this;
 	this.button_8morelos.setTransform(624,248.3,1.089,1.3,0,0,0,133.1,22.9);
 
 	this.button_7obregon = new lib.ans_vhuerta_btn();
+	this.button_7obregon.name = "button_7obregon";
 	this.button_7obregon.parent = this;
 	this.button_7obregon.setTransform(610.2,312.7,1,1.3,0,0,0,133.1,22.9);
 
 	this.button_6zapata = new lib.ans_vhuerta_btn();
+	this.button_6zapata.name = "button_6zapata";
 	this.button_6zapata.parent = this;
 	this.button_6zapata.setTransform(608.2,123.5,1,1.3,0,0,0,133.1,22.9);
 
 	this.button_5diaz = new lib.ans_vhuerta_btn();
+	this.button_5diaz.name = "button_5diaz";
 	this.button_5diaz.parent = this;
 	this.button_5diaz.setTransform(-54.3,56.2,1,1.3,0,0,0,133.1,22.9);
 
 	this.button_4hidalgo = new lib.ans_vhuerta_btn();
+	this.button_4hidalgo.name = "button_4hidalgo";
 	this.button_4hidalgo.parent = this;
 	this.button_4hidalgo.setTransform(-24,123.8,1.158,1.3,0,0,0,132.9,22.9);
 
 	this.button_4madero = new lib.ans_vhuerta_btn();
+	this.button_4madero.name = "button_4madero";
 	this.button_4madero.parent = this;
 	this.button_4madero.setTransform(609.7,383.6,1,1.3,0,0,0,133.1,22.9);
 
 	this.button_3 = new lib.ans_vhuerta_btn();
+	this.button_3.name = "button_3";
 	this.button_3.parent = this;
 	this.button_3.setTransform(-45.9,252.3,1,1.3,0,0,0,133.1,22.9);
 
 	this.button_2 = new lib.ans_vhuerta_btn();
+	this.button_2.name = "button_2";
 	this.button_2.parent = this;
 	this.button_2.setTransform(608.2,52.9,1,1.3,0,0,0,133.1,22.8);
 
 	this.boton12 = new lib.hit2();
+	this.boton12.name = "boton12";
 	this.boton12.parent = this;
 	this.boton12.setTransform(120.6,523.3,2.506,0.427,0,0,0,58.1,39.1);
 	this.boton12.alpha = 0;
 
 	this.boton11 = new lib.hit2();
+	this.boton11.name = "boton11";
 	this.boton11.parent = this;
 	this.boton11.setTransform(105.6,474.2,2.28,0.427,0,0,0,58.1,38.9);
 	this.boton11.alpha = 0;
 
 	this.boton10 = new lib.hit2();
+	this.boton10.name = "boton10";
 	this.boton10.parent = this;
 	this.boton10.setTransform(168.6,425.1,3.494,0.427,0,0,0,58.1,39);
 	this.boton10.alpha = 0;
 
 	this.boton9 = new lib.hit2();
+	this.boton9.name = "boton9";
 	this.boton9.parent = this;
 	this.boton9.setTransform(114.6,373,2.412,0.427,0,0,0,58.1,39);
 	this.boton9.alpha = 0;
 
 	this.boton8 = new lib.hit2();
+	this.boton8.name = "boton8";
 	this.boton8.parent = this;
 	this.boton8.setTransform(99.7,323,2.148,0.427,0,0,0,58.1,39.3);
 	this.boton8.alpha = 0;
 
 	this.boton5 = new lib.hit2();
+	this.boton5.name = "boton5";
 	this.boton5.parent = this;
 	this.boton5.setTransform(66.5,171.6,1.606,0.427,0,0,0,58.1,39.1);
 	this.boton5.alpha = 0;
 
 	this.boton1 = new lib.hit2();
+	this.boton1.name = "boton1";
 	this.boton1.parent = this;
 	this.boton1.setTransform(74.9,-27.8,1.751,0.427,0,0,0,58.1,39.1);
 	this.boton1.alpha = 0;
 
 	this.boton2 = new lib.hit2();
+	this.boton2.name = "boton2";
 	this.boton2.parent = this;
 	this.boton2.setTransform(151.6,22.3,3.166,0.427,0,0,0,58.1,39.1);
 	this.boton2.alpha = 0;
 
 	this.boton3 = new lib.hit2();
+	this.boton3.name = "boton3";
 	this.boton3.parent = this;
 	this.boton3.setTransform(185.6,74.9,3.723,0.427,0,0,0,58.1,39.1);
 	this.boton3.alpha = 0;
 
 	this.boton4 = new lib.hit2();
+	this.boton4.name = "boton4";
 	this.boton4.parent = this;
 	this.boton4.setTransform(87.6,122.5,1.939,0.427,0,0,0,58.1,39);
 	this.boton4.alpha = 0;
 
 	this.boton6 = new lib.hit2();
+	this.boton6.name = "boton6";
 	this.boton6.parent = this;
 	this.boton6.setTransform(116.6,222.7,2.506,0.427,0,0,0,58.1,39.1);
 	this.boton6.alpha = 0;
@@ -13810,6 +13856,7 @@ p.nominalBounds = new cjs.Rectangle(-24.6,-0.2,424,40.4);
 	this.shape_84.setTransform(468.6,55.3);
 
 	this.button_1 = new lib.cerrar();
+	this.button_1.name = "button_1";
 	this.button_1.parent = this;
 	this.button_1.setTransform(971.9,-36.3,2,2,0,0,0,19.4,20.3);
 	new cjs.ButtonHelper(this.button_1, 0, 1, 2, false, new lib.cerrar(), 3);
@@ -14533,98 +14580,122 @@ p.nominalBounds = new cjs.Rectangle(-565.1,45.6,235.4,148);
 
 	// Capa 1
 	this.huerta2_mc = new lib.huerta2();
+	this.huerta2_mc.name = "huerta2_mc";
 	this.huerta2_mc.parent = this;
 	this.huerta2_mc.setTransform(226.3,419.9,1,1,0,0,0,68.4,74);
 
 	this.obregon1_mc = new lib.obregon1();
+	this.obregon1_mc.name = "obregon1_mc";
 	this.obregon1_mc.parent = this;
 	this.obregon1_mc.setTransform(793.5,76.1,1,1,0,0,0,70.3,74.4);
 
 	this.iturbide1_mc = new lib.iturbide1();
+	this.iturbide1_mc.name = "iturbide1_mc";
 	this.iturbide1_mc.parent = this;
 	this.iturbide1_mc.setTransform(218.8,248.6,1,1,0,0,0,65,74.4);
 
 	this.obregon2_mc = new lib.obregon2();
+	this.obregon2_mc.name = "obregon2_mc";
 	this.obregon2_mc.parent = this;
 	this.obregon2_mc.setTransform(81.5,77.1,1,1,0,0,0,70.3,75.4);
 
 	this.victoria2_mc = new lib.victoria2();
+	this.victoria2_mc.name = "victoria2_mc";
 	this.victoria2_mc.parent = this;
 	this.victoria2_mc.setTransform(869.7,348.1);
 
 	this.hidalgo2_mc = new lib.hidalgo2();
+	this.hidalgo2_mc.name = "hidalgo2_mc";
 	this.hidalgo2_mc.parent = this;
 	this.hidalgo2_mc.setTransform(1012.9,348.1);
 
 	this.iturbide2_mc = new lib.iturbide2();
+	this.iturbide2_mc.name = "iturbide2_mc";
 	this.iturbide2_mc.parent = this;
 	this.iturbide2_mc.setTransform(934.7,76.7,1,1,0,0,0,65,75);
 
 	this.zapata2_mc = new lib.zapata2();
+	this.zapata2_mc.name = "zapata2_mc";
 	this.zapata2_mc.parent = this;
 	this.zapata2_mc.setTransform(371.4,420.5,1,1,0,0,0,75,72.4);
 
 	this.villa2_mc = new lib.villa2();
+	this.villa2_mc.name = "villa2_mc";
 	this.villa2_mc.parent = this;
 	this.villa2_mc.setTransform(790.2,420.9,1,1,0,0,0,67,72.8);
 
 	this.ana2_mc = new lib.santaana2();
+	this.ana2_mc.name = "ana2_mc";
 	this.ana2_mc.parent = this;
 	this.ana2_mc.setTransform(508.9,420.1,1,1,0,0,0,70.3,72);
 
 	this.madero2_mc = new lib.madero2();
+	this.madero2_mc.name = "madero2_mc";
 	this.madero2_mc.parent = this;
 	this.madero2_mc.setTransform(924.8,247.4,1,1,0,0,0,55.1,72.9);
 
 	this.morelos2_mc = new lib.morelos2();
+	this.morelos2_mc.name = "morelos2_mc";
 	this.morelos2_mc.parent = this;
 	this.morelos2_mc.setTransform(1067.9,76.4,1,1,0,0,0,55,74.4);
 
 	this.moctezuma2_mc = new lib.moctezuma2();
+	this.moctezuma2_mc.name = "moctezuma2_mc";
 	this.moctezuma2_mc.parent = this;
 	this.moctezuma2_mc.setTransform(1079.3,249.5,1,1,0,0,0,66.4,74.5);
 
 	this.ana1_mc = new lib.santaana1();
+	this.ana1_mc.name = "ana1_mc";
 	this.ana1_mc.parent = this;
 	this.ana1_mc.setTransform(723.2,175);
 
 	this.moctezuma1_mc = new lib.moctezuma1();
+	this.moctezuma1_mc.name = "moctezuma1_mc";
 	this.moctezuma1_mc.parent = this;
 	this.moctezuma1_mc.setTransform(647.2,249.7,1,1,0,0,0,66.4,75);
 
 	this.victoria1_mc = new lib.victoria1();
+	this.victoria1_mc.name = "victoria1_mc";
 	this.victoria1_mc.parent = this;
 	this.victoria1_mc.setTransform(438.6,175);
 
 	this.morelos1_mc = new lib.morelos1();
+	this.morelos1_mc.name = "morelos1_mc";
 	this.morelos1_mc.parent = this;
 	this.morelos1_mc.setTransform(296.4,175);
 
 	this.diaz2_mc = new lib.porfirio2();
+	this.diaz2_mc.name = "diaz2_mc";
 	this.diaz2_mc.parent = this;
 	this.diaz2_mc.setTransform(76.7,247.5,1,1,0,0,0,65.5,72.8);
 
 	this.zapata1_mc = new lib.zapata1();
+	this.zapata1_mc.name = "zapata1_mc";
 	this.zapata1_mc.parent = this;
 	this.zapata1_mc.setTransform(655.8,420.1,1,1,0,0,0,75,72);
 
 	this.diaz1_mc = new lib.porfirio1();
+	this.diaz1_mc.name = "diaz1_mc";
 	this.diaz1_mc.parent = this;
 	this.diaz1_mc.setTransform(646.3,73.7,1,1,0,0,0,65.5,72);
 
 	this.hidalgo1_mc = new lib.hidago1();
+	this.hidalgo1_mc.name = "hidalgo1_mc";
 	this.hidalgo1_mc.parent = this;
 	this.hidalgo1_mc.setTransform(507,74,1,1,0,0,0,68.4,72);
 
 	this.madero1_mc = new lib.madero1();
+	this.madero1_mc.name = "madero1_mc";
 	this.madero1_mc.parent = this;
 	this.madero1_mc.setTransform(11.2,348.1);
 
 	this.villa1_mc = new lib.villa1();
+	this.villa1_mc.name = "villa1_mc";
 	this.villa1_mc.parent = this;
 	this.villa1_mc.setTransform(221.2,73.7,1,1,0,0,0,67,72);
 
 	this.huerta1_mc = new lib.huerta1();
+	this.huerta1_mc.name = "huerta1_mc";
 	this.huerta1_mc.parent = this;
 	this.huerta1_mc.setTransform(365.2,77.9,1,1,0,0,0,68.4,74);
 
@@ -15800,41 +15871,8 @@ p.nominalBounds = new cjs.Rectangle(18,5.4,1135.6,515.1);
 			//alert("game over dentro")
 			if (intentos < 0) {
 				//alert("game over dentro")
-				inicio  = 3
-				
-		puntos = 0
-		levantado1 = 0
-		levantado2 = 0
-		intentos = 19
-		respuesta = 0
-				raiz.gotoAndStop(0)
-				//raiz.memorama.play()
-				huerta1 = 0
-		huerta2 = 0
-		 villa1 = 0
-		villa2 = 0
-		 madero1 = 0
-		madero2 = 0
-		hidalgo1 = 0
-		 hidalgo2 = 0
-		 diaz1 = 0
-		 diaz2 = 0
-		 zapata1 = 0
-		zapata2 = 0
-		obregon1 = 0
-		 obregon2 = 0
-		morelos1 = 0
-		 morelos2 = 0
-		 victoria1 = 0
-		victoria2 = 0
-		 moctezuma1 = 0
-		 moctezuma2 = 0
-		 ana1=0
-		 ana2=0
-		iturbide1 =0
-		 iturbide2 =0
-		 
-		 //inicio=3
+			window.open("memomeamecelebs2.html", "_self");
+				//inicio=3
 			}
 		}
 		
@@ -16293,6 +16331,7 @@ p.nominalBounds = new cjs.Rectangle(18,5.4,1135.6,515.1);
 
 	// Layer 5
 	this.menurespuestas = new lib.personajesmenu();
+	this.menurespuestas.name = "menurespuestas";
 	this.menurespuestas.parent = this;
 	this.menurespuestas.setTransform(453.1,312,1,1,0,0,0,159.4,212.8);
 	this.menurespuestas._off = true;
@@ -16301,6 +16340,7 @@ p.nominalBounds = new cjs.Rectangle(18,5.4,1135.6,515.1);
 
 	// Actions
 	this.delay = new lib.delay();
+	this.delay.name = "delay";
 	this.delay.parent = this;
 	this.delay.setTransform(-331.9,161.2,0.89,0.89,0,0,0,47.1,26.9);
 	this.delay._off = true;
@@ -16309,10 +16349,12 @@ p.nominalBounds = new cjs.Rectangle(18,5.4,1135.6,515.1);
 
 	// Layer 9
 	this.triunfo = new lib.triunfo();
+	this.triunfo.name = "triunfo";
 	this.triunfo.parent = this;
 	this.triunfo.setTransform(1164.3,621.3,0.787,0.787,0,0,0,282.1,181.3);
 
 	this.instrucciones = new lib.instructions();
+	this.instrucciones.name = "instrucciones";
 	this.instrucciones.parent = this;
 	this.instrucciones.setTransform(670.4,311.9,1,1,0,0,0,282.1,181.2);
 
@@ -16353,6 +16395,7 @@ p.nominalBounds = new cjs.Rectangle(18,5.4,1135.6,515.1);
 	this.trys.setTransform(1465.3,244.1,1.85,1.85);
 
 	this.equis = new lib.espantosax();
+	this.equis.name = "equis";
 	this.equis.parent = this;
 	this.equis.setTransform(1031.3,602.4,1.25,1.25,0,0,0,0,0.1);
 
@@ -16364,6 +16407,7 @@ p.nominalBounds = new cjs.Rectangle(18,5.4,1135.6,515.1);
 	this.score.setTransform(1457.9,69.9,1.85,1.85);
 
 	this.memorama = new lib.memoramas();
+	this.memorama.name = "memorama";
 	this.memorama.parent = this;
 	this.memorama.setTransform(502.9,380.5,1.15,1.15,0,0,0,431.9,321.2);
 
@@ -16371,6 +16415,7 @@ p.nominalBounds = new cjs.Rectangle(18,5.4,1135.6,515.1);
 
 	// Layer 4
 	this.bios = new lib.bios();
+	this.bios.name = "bios";
 	this.bios.parent = this;
 	this.bios.setTransform(756.2,607.1,1,1,0,0,0,61,90.5);
 	this.bios._off = true;
@@ -16398,6 +16443,7 @@ p.nominalBounds = new cjs.Rectangle(18,5.4,1135.6,515.1);
 	this.instance_4.setTransform(23,681,0.755,0.755);
 
 	this.inicio_btn = new lib.inicio();
+	this.inicio_btn.name = "inicio_btn";
 	this.inicio_btn.parent = this;
 	this.inicio_btn.setTransform(674.2,379.4,2,2,0,0,0,46.3,46.3);
 	new cjs.ButtonHelper(this.inicio_btn, 0, 1, 2);
@@ -16526,7 +16572,7 @@ p.nominalBounds = new cjs.Rectangle(18,5.4,1135.6,515.1);
 	this.shape_29.setTransform(672.2,379.3);
 
 	this.shape_30 = new cjs.Shape();
-	this.shape_30.graphics.f("#000000").s().p("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");
+	this.shape_30.graphics.f("#000000").s().p("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");
 	this.shape_30.setTransform(672.2,382.8);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_30},{t:this.shape_29}]}).wait(2));
@@ -16542,7 +16588,7 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/memomeamecelebs2_atlas_.png?1500104981665", id:"memomeamecelebs2_atlas_"}
+		{src:"images/memomeamecelebs2_atlas_.png", id:"memomeamecelebs2_atlas_"}
 	],
 	preloads: []
 };
