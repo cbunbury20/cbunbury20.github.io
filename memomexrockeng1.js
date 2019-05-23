@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"memomexrock1_atlas_", frames: [[732,460,181,228],[508,230,181,228],[549,460,181,228],[183,385,30,40],[0,615,181,228],[0,0,225,225],[691,0,181,228],[691,230,181,228],[562,690,160,200],[183,460,181,228],[366,460,181,228],[508,0,181,228],[366,690,194,195],[0,845,100,100],[325,230,181,228],[0,385,181,228],[0,227,323,156],[325,0,181,228],[183,690,181,225]]}
+		{name:"memomexrockeng1_atlas_", frames: [[0,227,181,228],[183,230,181,228],[776,0,181,228],[959,0,30,40],[732,230,181,228],[0,0,225,225],[549,230,181,228],[366,230,181,228],[732,657,160,200],[593,0,181,228],[410,0,181,228],[227,0,181,228],[732,460,194,195],[915,230,100,100],[0,457,181,228],[366,460,181,228],[183,460,181,228],[549,460,181,225]]}
 ];
 
 
@@ -12,134 +12,127 @@ lib.ssMetadata = [
 
 
 (lib.aqualung = function() {
-	this.initialize(ss["memomexrock1_atlas_"]);
+	this.initialize(ss["memomexrockeng1_atlas_"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.axel = function() {
-	this.initialize(ss["memomexrock1_atlas_"]);
+	this.initialize(ss["memomexrockeng1_atlas_"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bono = function() {
-	this.initialize(ss["memomexrock1_atlas_"]);
+	this.initialize(ss["memomexrockeng1_atlas_"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.calaverita = function() {
-	this.initialize(ss["memomexrock1_atlas_"]);
+	this.initialize(ss["memomexrockeng1_atlas_"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.clapton = function() {
-	this.initialize(ss["memomexrock1_atlas_"]);
+	this.initialize(ss["memomexrockeng1_atlas_"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fondo = function() {
-	this.initialize(ss["memomexrock1_atlas_"]);
+	this.initialize(ss["memomexrockeng1_atlas_"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.gilmore = function() {
-	this.initialize(ss["memomexrock1_atlas_"]);
+	this.initialize(ss["memomexrockeng1_atlas_"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.heatfield = function() {
-	this.initialize(ss["memomexrock1_atlas_"]);
+	this.initialize(ss["memomexrockeng1_atlas_"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.hojita = function() {
-	this.initialize(ss["memomexrock1_atlas_"]);
+	this.initialize(ss["memomexrockeng1_atlas_"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.jagger = function() {
-	this.initialize(ss["memomexrock1_atlas_"]);
+	this.initialize(ss["memomexrockeng1_atlas_"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.kieds = function() {
-	this.initialize(ss["memomexrock1_atlas_"]);
+	this.initialize(ss["memomexrockeng1_atlas_"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.kurt = function() {
-	this.initialize(ss["memomexrock1_atlas_"]);
+	this.initialize(ss["memomexrockeng1_atlas_"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.logomzt = function() {
-	this.initialize(ss["memomexrock1_atlas_"]);
+	this.initialize(ss["memomexrockeng1_atlas_"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.LOGONEW = function() {
-	this.initialize(ss["memomexrock1_atlas_"]);
+	this.initialize(ss["memomexrockeng1_atlas_"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.morrison = function() {
-	this.initialize(ss["memomexrock1_atlas_"]);
+	this.initialize(ss["memomexrockeng1_atlas_"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.ozzy = function() {
-	this.initialize(ss["memomexrock1_atlas_"]);
+	this.initialize(ss["memomexrockeng1_atlas_"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.patreonlogo = function() {
-	this.initialize(ss["memomexrock1_atlas_"]);
+(lib.plant = function() {
+	this.initialize(ss["memomexrockeng1_atlas_"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.plant = function() {
-	this.initialize(ss["memomexrock1_atlas_"]);
-	this.gotoAndStop(17);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib.rockcard = function() {
-	this.initialize(ss["memomexrock1_atlas_"]);
-	this.gotoAndStop(18);
+	this.initialize(ss["memomexrockeng1_atlas_"]);
+	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -995,19 +988,6 @@ p.nominalBounds = new cjs.Rectangle(-624.6,-273.8,1249.2,547.6);
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-73,-36,305,126.8);
-
-
-(lib.patreon = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// Layer_1
-	this.instance = new lib.patreonlogo();
-	this.instance.parent = this;
-	this.instance.setTransform(-161,-78);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-}).prototype = getMCSymbolPrototype(lib.patreon, new cjs.Rectangle(-161,-78,323,156), null);
 
 
 (lib.inicio = function(mode,startPosition,loop) {
@@ -10445,7 +10425,7 @@ p.nominalBounds = new cjs.Rectangle(-24.6,-0.2,424,40.400000000000006);
 	this.instance.parent = this;
 	this.instance.setTransform(-701.95,273.8);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).to({x:624.6,alpha:0.8516},7).wait(2));
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({x:624.6},7).wait(2));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-1326.5,0,2575.7,547.6);
@@ -12570,7 +12550,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,1153.6,520.5);
 
 
 // stage content:
-(lib.memomexrock1 = function(mode,startPosition,loop) {
+(lib.memomexrockeng1 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// timeline functions:
@@ -12629,11 +12609,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,1153.6,520.5);
 			//alert(huerta1)
 			inicio=1
 			this.gotoAndStop(3);
-		}
-		this.patreon.addEventListener("click", fl_ClickToGoToWebPage_3);
-		
-		function fl_ClickToGoToWebPage_3() {
-			window.open("https://www.patreon.com/culturalgames/", "_blank");
 		}
 		this.stop();
 	}
@@ -14167,11 +14142,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,1153.6,520.5);
 			window.open("https://www.facebook.com/mazatlanonline.net/", "_blank");
 		}
 		this.triunfo.visible = 0
-		this.patreon2.addEventListener("click", fl_ClickToGoToWebPage_3);
-		
-		function fl_ClickToGoToWebPage_3() {
-			window.open("https://www.patreon.com/culturalgames/", "_blank");
-		}
 		this.memorama.huerta1_mc.gotoAndStop(1)
 		this.memorama.huerta2_mc.gotoAndStop(1)
 		this.memorama.villa1_mc.gotoAndStop(1)
@@ -14221,12 +14191,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,1153.6,520.5);
 	this.timeline.addTween(cjs.Tween.get(this.delay).wait(1).to({_off:false},0).wait(1));
 
 	// Layer 9
-	this.patreon = new lib.patreon();
-	this.patreon.name = "patreon";
-	this.patreon.parent = this;
-	this.patreon.setTransform(1206.5,73.25,0.79,0.79,0,0,0,0.5,0.1);
-	new cjs.ButtonHelper(this.patreon, 0, 1, 1);
-
 	this.triunfo = new lib.triunfo();
 	this.triunfo.name = "triunfo";
 	this.triunfo.parent = this;
@@ -14237,7 +14201,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,1153.6,520.5);
 	this.instrucciones.parent = this;
 	this.instrucciones.setTransform(670.4,311.9,1,1,0,0,0,282.1,181.2);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.patreon}]}).to({state:[{t:this.instrucciones},{t:this.triunfo}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instrucciones},{t:this.triunfo}]},1).wait(1));
 
 	// Layer 2 (mask)
 	var mask = new cjs.Shape();
@@ -14257,16 +14221,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,1153.6,520.5);
 	}
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).to({_off:true},1).wait(1));
-
-	// Layer_12
-	this.patreon2 = new lib.patreon();
-	this.patreon2.name = "patreon2";
-	this.patreon2.parent = this;
-	this.patreon2.setTransform(1286.75,729.75,0.38,0.38,0,0,0,0.8,0.3);
-	this.patreon2._off = true;
-	new cjs.ButtonHelper(this.patreon2, 0, 1, 1);
-
-	this.timeline.addTween(cjs.Tween.get(this.patreon2).wait(1).to({_off:false},0).wait(1));
 
 	// Layer 6
 	this.ans = new cjs.Text("7", "27px 'Arial'", "#FFFFFF");
@@ -14477,7 +14431,7 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/memomexrock1_atlas_.png?1558627535106", id:"memomexrock1_atlas_"}
+		{src:"images/memomexrockeng1_atlas_.png?1558627622675", id:"memomexrockeng1_atlas_"}
 	],
 	preloads: []
 };
