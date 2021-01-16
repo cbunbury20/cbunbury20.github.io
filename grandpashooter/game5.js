@@ -1710,7 +1710,7 @@ if (reversed == null) { reversed = false; }
 		direccion ="";
 		bala1 = this.mc_disparo1
 		disparando = 0
-		speedm1 = 7;
+		speedm1 = 5;
 		deadenemies = 0;
 		
 		
@@ -2009,7 +2009,7 @@ lib.properties = {
 	color: "#000000",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/game5_atlas_1.png?1610772805746", id:"game5_atlas_1"}
+		{src:"images/game5_atlas_1.png?1610773713535", id:"game5_atlas_1"}
 	],
 	preloads: []
 };
